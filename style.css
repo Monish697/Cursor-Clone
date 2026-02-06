@@ -1,5 +1,6 @@
 :root {
     --text-color: #fff;
+    --card-background-color: #1b1913;
 }
 body {
     color: var(--text-color);
@@ -13,9 +14,11 @@ body {
         Arial,
         sans-serif;
 }
+
 * {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 .navBar {
     width: 1300px;
@@ -25,7 +28,8 @@ body {
     padding: 10px;
     gap: 1rem;
     margin-left: 110px;
-    margin-right: 110px;
+    margin-right: 90px;
+    margin-bottom: 50px;
 }
 .navCenterItem {
     display: flex;
@@ -45,7 +49,7 @@ body {
 }
 .signIn {
     border: 1px solid #45433e;
-    background-color: #1b1913;
+    background-color: var(--card-background-color);
     color: #fff;
 }
 .downloadBtn {
@@ -53,28 +57,87 @@ body {
 }
 
 .mainTitle {
-    /* margin-bottom: 20px;
-    margin-top: 20px;
-    color: #969592; */
+    font-size: 30px;
+    margin-bottom: 45px;
     margin-left: 110px;
     margin-right: 110px;
     font-weight: 300;
     font-size: 10px;
 }
-.bgc-img {
-    margin-left: 110px;
-    margin-right: 110px;
-    width: 1300px;
-    height: 680px;
-    z-index: -1;
+.mainTitle1 {
+    font-size: x-large;
+    font-weight: 400;
 }
-.terminalImage {
-    z-index: 2;
-    position: absolute;
-    left: 5%;
-    top: 29%;
-    margin-left: 110px;
-    margin-right: 110px;
-    width: 1150px;
-    height: 630px;
+.mainTitle2 {
+    font-size: x-large;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.downloadBtn2 {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 18px;
+    padding: 5.6px 10.5px 5.6px 10.5px;
+}
+
+.card1 video {
+    width: 1300px;
+    height: 720px;
+    margin-left: 106px;
+}
+
+.trustedCompany {
+    margin-top: 50px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    flex-direction: column;
+}
+.companyLogoImg {
+    height: 40px;
+}
+.companyLogo {
+    display: flex;
+    gap: 8px;
+}
+.box {
+    background-color: var(--card-background-color);
+    height: 100px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card2 {
+    display: flex;
+    margin-top: 15px;
+    height: 680px;
+    width: 1295px;
+    background-color: var(--card-background-color);
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 382px;
+    height: 680px;
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+.text {
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.textLine1 {
+}
+.textLine2 {
+    color: #989795;
+}
+.terminalImg {
+    margin-top: 25px;
+    margin-right: 0%;
+    margin-left: 0%;
 }
