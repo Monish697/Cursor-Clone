@@ -1,0 +1,80 @@
+:root {
+    --text-color: #fff;
+}
+body {
+    color: var(--text-color);
+    background-color: #100e09;
+    font-family:
+        "CursorGothic",
+        "CursorGothic Fallback",
+        system-ui,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.navBar {
+    width: 1300px;
+    height: 51.992px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 1rem;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.navCenterItem {
+    display: flex;
+    margin-top: 15px;
+    gap: 25px;
+}
+.navCenterItem a {
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+.navRightItem button {
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 18px;
+    padding: 5.6px 10.5px 5.6px 10.5px;
+}
+.signIn {
+    border: 1px solid #45433e;
+    background-color: #1b1913;
+    color: #fff;
+}
+.downloadBtn {
+    background-color: #fff;
+}
+
+.mainTitle {
+    /* margin-bottom: 20px;
+    margin-top: 20px;
+    color: #969592; */
+    margin-left: 110px;
+    margin-right: 110px;
+    font-weight: 300;
+    font-size: 10px;
+}
+.bgc-img {
+    margin-left: 110px;
+    margin-right: 110px;
+    width: 1300px;
+    height: 680px;
+    z-index: -1;
+}
+.terminalImage {
+    z-index: 2;
+    position: absolute;
+    left: 5%;
+    top: 29%;
+    margin-left: 110px;
+    margin-right: 110px;
+    width: 1150px;
+    height: 630px;
+}
