@@ -28,7 +28,7 @@ body {
     padding: 10px;
     gap: 1rem;
     margin-left: 110px;
-    margin-right: 90px;
+    margin-right: 110px;
     margin-bottom: 50px;
 }
 .navCenterItem {
@@ -114,6 +114,7 @@ body {
 .card2 {
     display: flex;
     margin-top: 15px;
+    margin-left: 110px;
     height: 680px;
     width: 1295px;
     background-color: var(--card-background-color);
@@ -124,20 +125,27 @@ body {
     justify-content: center;
     width: 382px;
     height: 680px;
-    font-size: 1.375rem;
-    font-weight: 400;
 }
 .text {
     padding-left: 15px;
     padding-right: 30px;
 }
 .textLine1 {
+    font-size: 1.375rem;
+    font-weight: 500;
+    width: 300px;
 }
 .textLine2 {
-    color: #989795;
+    color: #9a9996;
+    font-size: 1.375rem;
+    width: 400px;
 }
-.terminalImg {
+.cardTerminalImg {
     margin-top: 25px;
-    margin-right: 0%;
-    margin-left: 0%;
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+.orageText {
+    color: #f54e00;
+    margin-top: 15px;
 }
