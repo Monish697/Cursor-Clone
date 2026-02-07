@@ -2,17 +2,13 @@
     --text-color: #fff;
     --card-background-color: #1b1913;
 }
+@font-face {
+    font-family: "CursorGothic";
+    src: url("/assets/CursorGothic-Regular.woff2");
+}
 body {
     color: var(--text-color);
     background-color: #100e09;
-    font-family:
-        "CursorGothic",
-        "CursorGothic Fallback",
-        system-ui,
-        Helvetica Neue,
-        Helvetica,
-        Arial,
-        sans-serif;
 }
 
 * {
@@ -21,7 +17,12 @@ body {
     box-sizing: border-box;
 }
 .navBar {
-    width: 1300px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #100e09;
+    max-width: 1300px;
+    width: 100%;
     height: 51.992px;
     display: flex;
     justify-content: space-between;
@@ -33,7 +34,7 @@ body {
 }
 .navCenterItem {
     display: flex;
-    margin-top: 15px;
+    align-items: center;
     gap: 25px;
 }
 .navCenterItem a {
@@ -57,11 +58,13 @@ body {
 }
 
 .mainTitle {
+    font-family: "CursorGothic";
     font-size: 30px;
+    margin-top: 8rem;
     margin-bottom: 45px;
     margin-left: 110px;
     margin-right: 110px;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 10px;
 }
 .mainTitle1 {
@@ -75,9 +78,9 @@ body {
 }
 .downloadBtn2 {
     cursor: pointer;
-    font-size: 20px;
-    border-radius: 18px;
-    padding: 5.6px 10.5px 5.6px 10.5px;
+    font-size: 17px;
+    border-radius: 3.40282e38px;
+    padding: 0.78em 1.35em 0.8em;
 }
 
 .card1 video {
@@ -87,6 +90,7 @@ body {
 }
 
 .trustedCompany {
+    width: 100%;
     margin-top: 50px;
     display: flex;
     gap: 8px;
@@ -101,11 +105,12 @@ body {
 }
 .companyLogo {
     display: flex;
-    gap: 8px;
+    gap: 0.625rem;
 }
 .box {
     background-color: var(--card-background-color);
     height: 100px;
+    margin-right: 12px;
     width: 140px;
     display: flex;
     justify-content: center;
@@ -148,4 +153,99 @@ body {
 .orageText {
     color: #f54e00;
     margin-top: 15px;
+}
+
+.card3 {
+    font-family: "CursorGothic";
+    display: flex;
+    margin-top: 15px;
+    margin-left: 110px;
+    height: 680px;
+    width: 1295px;
+    background-color: var(--card-background-color);
+}
+.card3 video {
+    margin: 15px;
+    height: 650px;
+}
+.card3 .textLine1 {
+    width: 340px;
+}
+.card3 .textLine2 {
+    width: 355px;
+}
+.card3 .text {
+    margin-left: 50px;
+}
+
+.card4 {
+    font-family: "CursorGothic";
+    display: flex;
+    margin-top: 15px;
+    margin-left: 110px;
+    height: 680px;
+    width: 1300px;
+    background-color: var(--card-background-color);
+}
+.card4 img {
+    margin-right: 0% !important;
+    margin-left: 54px;
+    margin-top: 15px;
+    height: 650px;
+    width: 800px;
+}
+.card4 .text {
+    margin-right: 50px;
+}
+.subTitle {
+    font-family: "CursorGothic";
+    font-weight: 300;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companyCeoFeedbacks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1375px;
+    height: 490px;
+    margin-left: 110px;
+    font-family: "CursorGothic";
+    font-weight: 400;
+    font-style: normal;
+}
+.ceoBox {
+    background-color: var(--card-background-color);
+    font-family: "CursorGothic";
+    width: 390px;
+    height: 250px;
+    padding: 16px 17.5px 17.5px 17.5px;
+}
+.ceoInfo {
+    display: flex;
+    gap: 8px;
+    margin: 80px 9px 3px;
+}
+.ceoInfo .darkText {
+    color: #9a9996;
+}
+.ceo-1 {
+    margin-top: 96px;
+}
+.ceo-2 {
+    margin-top: 96px;
+}
+.ceo-3 {
+    margin-top: 78px;
+}
+.ceo-4 {
+    margin-top: 54px;
+}
+.ceo-5 {
+    margin-top: 54px;
+}
+.ceo-6 {
+    margin-top: 92px;
 }
