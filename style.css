@@ -1,10 +1,11 @@
 :root {
     --text-color: #fff;
     --card-background-color: #1b1913;
+    --default-font: "CursorGothic";
 }
 @font-face {
     font-family: "CursorGothic";
-    src: url("/assets/CursorGothic-Regular.woff2");
+    src: url("./assets/CursorGothic-Regular.woff2");
 }
 body {
     color: var(--text-color);
@@ -93,7 +94,7 @@ body {
     width: 100%;
     margin-top: 50px;
     display: flex;
-    gap: 8px;
+    gap: 12px;
     justify-content: center;
     align-items: center;
     font-size: 0.875rem;
@@ -101,27 +102,30 @@ body {
     flex-direction: column;
 }
 .companyLogoImg {
+    width: auto;
     height: 40px;
 }
 .companyLogo {
     display: flex;
-    gap: 0.625rem;
+    gap: 7px;
+    width: 1318px;
 }
 .box {
-    background-color: var(--card-background-color);
-    height: 100px;
-    margin-right: 12px;
-    width: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 12px;
+    background-color: var(--card-background-color);
+    height: 100px;
+    margin-right: 12px;
+    width: 144px;
 }
 .card2 {
     display: flex;
     margin-top: 15px;
     margin-left: 110px;
     height: 680px;
-    width: 1295px;
+    width: 1300px;
     background-color: var(--card-background-color);
 }
 .text {
@@ -148,7 +152,7 @@ body {
 .cardTerminalImg {
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 100px;
+    margin-left: 106px;
 }
 .orageText {
     color: #f54e00;
@@ -161,7 +165,7 @@ body {
     margin-top: 15px;
     margin-left: 110px;
     height: 680px;
-    width: 1295px;
+    width: 1300px;
     background-color: var(--card-background-color);
 }
 .card3 video {
@@ -208,8 +212,8 @@ body {
 .companyCeoFeedbacks {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    width: 1375px;
+    gap: 12px;
+    width: 1350px;
     height: 490px;
     margin-left: 110px;
     font-family: "CursorGothic";
@@ -228,7 +232,7 @@ body {
     gap: 8px;
     margin: 80px 9px 3px;
 }
-.ceoInfo .darkText {
+.darkText {
     color: #9a9996;
 }
 .ceo-1 {
@@ -248,4 +252,100 @@ body {
 }
 .ceo-6 {
     margin-top: 92px;
+}
+.frontier {
+    margin-top: 150px;
+    margin-left: 106px;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    width: 1500px;
+}
+.frontierTitle {
+    font-family: "CursorGothic";
+    font-size: 1.635rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.frontiercard-1 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--card-background-color);
+    width: 425px;
+    height: 480px;
+}
+.frontiercard-1 video {
+    height: 370px;
+    width: 380px;
+}
+.frontierCards {
+    display: flex;
+    gap: 12px;
+}
+.frontiercard-2 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--card-background-color);
+    width: 425px;
+    height: 480px;
+}
+.frontiercard-2 video {
+    height: 370px;
+    width: 380px;
+}
+.frontiercard-3 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--card-background-color);
+    width: 425px;
+    height: 480px;
+}
+.frontiercard-3 img {
+    margin-top: 11px;
+    height: 370px;
+    width: 350px;
+}
+.Changelog {
+    max-width: 1300px;
+    width: 100%;
+    margin-top: 65px;
+    margin-left: 110px;
+}
+.changelogTitle {
+    font-family: var(--default-font);
+    font-size: 25px;
+}
+.changelogCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.versionNo {
+    border: 0.926px solid#fff;
+    padding: 0px 9px 9px 9px;
+    border-radius: 10px;
+    height: 20px;
+}
+.dataVersionCtl {
+    font-family: var(--default-font);
+    display: flex;
+    gap: 8px;
+}
+.changelogCard {
+    padding: 15.9px 18.5px 20px 17.5px;
+    width: 290px;
+    height: 85px;
+    background-color: var(--card-background-color);
+    font-family: var(--default-font);
+}
+.changelogCardText {
+    padding-top: 10px;
+    width: 300px;
 }
