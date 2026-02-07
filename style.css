@@ -349,3 +349,24 @@ body {
     padding-top: 10px;
     width: 300px;
 }
+
+.researchTeamBox {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 1300px;
+    height: 32rem;
+    font-family: var(--default-font);
+    background-color: var(--card-background-color);
+}
+.textLine1 {
+    font-family: var(--default-font);
+    font-size: 1.165rem;
+    font-weight: 400;
+    margin-top: 12%;
+    margin-left: 26px;
+}
+.researchTeamBox img {
+    height: 28.5rem;
+    width: 53rem;
+}
